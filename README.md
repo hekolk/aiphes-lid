@@ -20,8 +20,8 @@ The data ``DSLCC.zip`` and ``DSLCC-eval.zip`` is already included in the ``data`
 
 ## Implemented Methods
 
-
-Without going into the details of the published approaches, I therefore implemented a typical Naive Bayes classifier with Laplace smoothing.
+Due to its popularity, adequacy for the task and simplicity, I chose to implement a Naive Bayes classifier. Laplace smoothing was used and also applied for out-of-vocabulary words.
+Needless to say, I normally wouldn't re-implement a classifier and use library code, but here only the Java 8 standard library is used.
 
 ## Comparison with published results
 
