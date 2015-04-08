@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+task execute(type:JavaExec) {
+    main = "st.kolkhor.projects.languageid.LanguageIdentifier"
+    classpath = sourceSets.main.runtimeClasspath
+}

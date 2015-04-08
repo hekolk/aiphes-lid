@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "dslevalscript.py", line 184, in <module>
+    main(sys.argv[1])
+  File "dslevalscript.py", line 141, in main
+    sorted(generate_confusion_matrix(submission).iteritems()):
+  File "dslevalscript.py", line 28, in generate_confusion_matrix
+    with zipfile.ZipFile(submission_zipfile, 'r') as inzipfile:
+  File "/usr/lib/python2.7/zipfile.py", line 756, in __init__
+    self.fp = open(file, modeDict[mode])
+IOError: [Errno 2] No such file or directory: '201504082231-aiphes-close-run1.txt.zip'
